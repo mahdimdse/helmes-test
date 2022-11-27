@@ -1,10 +1,20 @@
-# Getting Started with Create React App
+# Getting Started with Create React App and with Material-UI
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## About the Task
+The main enjoying part for me was using `react-redux`. For the searching it saves the value in the cookie for faster response. I have made the Search record to store upto 10 records and them removing the older searches. The view changing also has redux and cookie set, so the view doesn't change even after page refreshing. 
+Most of the components are dynamic and I developed them as micro as possible. The Searching works with any of the information of any users. For a small amount of `API` loading flavor, there is a `setTimeOut` in the Find button. The search records chips are clickable and they will populate the search input field. 
+
+Extra Work: I implemented a filter for how many least search records the user wants to see. Initially it's the length of the search records and it's changable. 
+
+Happy testing!
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+**Note: Please install it with `node 16.0.0 (atleast)`**
 
 ### `npm start`
 
@@ -16,8 +26,7 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I didn't put too much time on the unit testing. It has only one test done.
 
 ### `npm run build`
 
@@ -39,8 +48,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
