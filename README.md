@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 The main enjoying part for me was using `react-redux`. For the searching it saves the value in the cookie for faster response. I have made the Search record to store upto 10 records and them removing the older searches. The view changing also has redux and cookie set, so the view doesn't change even after page refreshing. 
 Most of the components are dynamic and I developed them as micro as possible. The Searching works with any of the information of any users. For a small amount of `API` loading flavor, there is a `setTimeOut` in the Find button. The search records chips are clickable and they will populate the search input field. 
 
-Extra Work: I implemented a filter for how many least search records the user wants to see. Initially it's the length of the search records and it's changable. 
+Extra Work: I implemented a filter for how many last search records the user wants to see. Initially it's the length of the search records and it's changable. 
 
 Happy testing!
 
